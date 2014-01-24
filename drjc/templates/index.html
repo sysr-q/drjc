@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}Dr James Curran - Facts Generator{% endblock %}
+
+{% block content %}
+<!--
+	Interested in how this works? It's pretty boring:
+	https://github.com/plausibility/drjc
+-->
+<h1 id="header"><a href="{{ url_for("index") }}">Dr James Curran</a></h1><span id="sub-heading">Facts Generator</span>
+
+<div id="fact" class="bubble">
+	{{ fact }}
+	<span id="hashtag">
+		<a href="https://twitter.com/search?q=%23drjcfacts">#drjcfacts</a>
+	</span>
+</div>
+
+{% endblock %}

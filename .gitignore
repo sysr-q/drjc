@@ -37,3 +37,6 @@ nosetests.xml
 
 *.swp
 drjcfacts.py
+jc.py
+jc.pid
+nohup.out

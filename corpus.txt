@@ -17,3 +17,14 @@ James Curran can scan QR codes with his mind.
 James Curran doesn't sort lists, he raises his left eyebrow menacingly and the elements re-arrange themselves.
 The dingy drawer said that James Curran's suspect glasses were once found by the girl on the hill with a telescope.
 James Curran has a Twitter account, but it's so private that no-one except him can see it.
+James Curran doesn't play Mafia because it'd be unfair for the other players - he automatically wins.
+"Not surprisingly, if you murder someone, there's paperwork involved." - Dr James Curran
+James Curran knows everything, including your name.
+James Curran knows when you use vim, and is disappointed.
+James Curran is turing complete.
+James Curran can modulo by zero.
+James Curran has one petabyte of ram, and counting.
+James Curran doesn't neeed computers, computers need <ERROR: file_not_found "James.Curran">
+James Curran doesn't need to bother debugging. The bugs flee due to his very presence.
+Even after setting james_curran = False, it still evaluates as True.
+James Curran hashes mutables in his sleep.
