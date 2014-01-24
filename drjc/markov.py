@@ -17,6 +17,8 @@ class Markov(object):
 	def __init__(self, sources):
 		self.sources = sources
 		self.chain_length = 2
+		self.max_words = 30
+		self.length_cap = 200
 		self.stop_word = Stop()
 		self.markov = {}
 		self.horse()
@@ -48,7 +50,11 @@ class Markov(object):
 			self.markov[key].append(words[-1])
 		return self.markov
 	
-	def markov_gen(self, max_words=30, length_cap=140, seed=None, chain_length=None):
+	def markov_gen(self, max_words=None, length_cap=None, seed=None, chain_length=None):
+		if max_words is None:
+			max_words = self.max_words
+		if length_cap is None:
+			length_cap = self.length_cap
 		if seed is None:
 			seed = random.choice(self.sources)
 		if chain_length is None:

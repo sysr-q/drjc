@@ -8,7 +8,6 @@ with open(sys.argv[1], "rb") as f:
 	drjc_facts = map(str, f)
 
 app = Flask(__name__)
-app.debug = True
 drjc = Markov(drjc_facts)
 
 @app.route("/")
