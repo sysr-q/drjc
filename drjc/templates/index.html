@@ -1,19 +1,44 @@
 {% extends "layout.html" %}
 
-{% block title %}Dr James Curran - Facts Generator{% endblock %}
+{% block head %}{{ super() }}
+<script src="{{ url_for('static', filename='index.js') }}"></script>
+{% endblock %}
+
+{% block title %}Dr James R. Curran - Facts Generator{% endblock %}
 
 {% block content %}
 <!--
 	Interested in how this works? It's pretty boring:
 	https://github.com/plausibility/drjc
 -->
-<h1 id="header"><a href="{{ url_for("index") }}">Dr James Curran</a></h1><span id="sub-heading">Facts Generator</span>
+<a href="{{ url_for('index') }}"><h1 id="header">Dr JC</h1></a><span id="sub-heading">Dr James R. Curran - Facts Generator</span>
 
 <div id="fact" class="bubble">
-	{{ fact }}
-	<span id="hashtag">
-		<a href="https://twitter.com/search?q=%23drjcfacts">#drjcfacts</a>
-	</span>
+	<span id="actual-fact">{{ fact }}</span>
+	<div id="spinner" class="spinner">
+		<div class="rect1"></div>
+		<div class="rect2"></div>
+		<div class="rect3"></div>
+		<div class="rect4"></div>
+		<div class="rect5"></div>
+	</div>
+	<a href="https://twitter.com/search?q=%23drjcfacts">
+		<span id="hashtag">#drjcfacts</span>
+	</a>
+</div>
+
+<div id="face" data-bg="{{ url_for('static', filename='images/4.png') }}">
+</div>
+
+<div id="wtf">
+	<h2>What in tarnation?!</h2>
+	<p>
+		The general idea behind this is to mash up (through the use of a <a href="http://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>) some <a href="https://twitter.com/search?q=%23drjcfacts">#drjcfacts</a>.
+		Given a big enough pool of facts, there's bound to be <b>something</b> which is clever.
+	</p>
+	<p>
+		It's not real time yet, but some day (hopefully soon) it'll parse <i>#drjcfacts</i> and add them to the corpus.
+	</p>
 </div>
 
 {% endblock %}

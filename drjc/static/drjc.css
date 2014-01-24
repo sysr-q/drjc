@@ -10,7 +10,14 @@ body {
     -webkit-box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    /*color: inherit;*/
+}
+
+/* Text bubble! */
 .bubble {
+	float: right;
 	position: relative;
 	width: 500px;
 	height: 100px;
@@ -34,6 +41,60 @@ body {
 	left: 413px;
 }
 
+/* Spinners! Based SpinKit got my back. */
+.spinner {
+	margin: 0 auto;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.spinner > div {
+	background-color: #ccc;
+	height: 100%;
+	width: 6px;
+	display: inline-block;
+	-webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+	animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+	-webkit-animation-delay: -1.1s;
+	animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+	0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+	20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+	0%, 40%, 100% { 
+		transform: scaleY(0.4);
+		-webkit-transform: scaleY(0.4);
+	}  20% { 
+		transform: scaleY(1.0);
+		-webkit-transform: scaleY(1.0);
+	}
+}
+
+/* Misc page junk! */
 #fact {
 	margin-top: 20px;
 	padding: 5px 10px;
@@ -41,20 +102,47 @@ body {
 }
 
 	#hashtag {
-		color: #ccc;
+		color: #ccc !important;
 		position: absolute;
 		bottom: 5px;
 		right: 5px;
 	}
 
-a {
-    text-decoration: none;
-    color: inherit;
+	#fact.spinning #hashtag {
+		display: none;
+	}
+
+	#fact:not(.spinning) #spinner {
+		display: none;
+	}
+
+	#spinner {
+		position: absolute;
+		bottom: 5px;
+		right: 5px;
+	}
+
+#face {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 176px; height: 200px;
+	background-image: url('/static/images/4.png');
+	position: relative;
+	top: 20px;
+	margin-right: 80px;
+	margin-top: 15px;
+	float: right; margin: 0 0 1em 1em;
+}
+
+#wtf {
+	display: block; margin-left: auto; margin-right: auto;
+	margin-top: 135px;
 }
 
 /* These button rules should probably be cleaned up */
 .button {
-    padding: 2px 4px;
+	padding: 2px 4px;
     background-color: #4479BA;
     color: #FFF;
     -webkit-border-radius: 4px;
