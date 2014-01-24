@@ -11,7 +11,10 @@
 	Interested in how this works? It's pretty boring:
 	https://github.com/plausibility/drjc
 -->
-<a href="{{ url_for('index') }}"><h1 id="header">Dr JC</h1></a><span id="sub-heading">Dr James R. Curran - Facts Generator</span>
+<div id="headerw">
+	<a href="{{ url_for('index') }}"><h1 id="header">Dr JC</h1></a>
+	<span id="sub-heading">Dr James R. Curran - Facts Generator</span>
+</div>
 
 <div id="fact" class="bubble">
 	<span id="actual-fact">{{ fact }}</span>
@@ -30,7 +33,7 @@
 <div id="face" data-bg="{{ url_for('static', filename='images/4.png') }}">
 </div>
 
-<div id="wtf">
+<div id="wtf" style="display: none">
 	<h2>What in tarnation?!</h2>
 	<p>
 		The general idea behind this is to mash up (through the use of a <a href="http://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>) some <a href="https://twitter.com/search?q=%23drjcfacts">#drjcfacts</a>.
