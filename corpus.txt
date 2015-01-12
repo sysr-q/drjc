@@ -28,3 +28,72 @@ James Curran doesn't neeed computers, computers need <ERROR: file_not_found "Jam
 James Curran doesn't need to bother debugging. The bugs flee due to his very presence.
 Even after setting james_curran = False, it still evaluates as True.
 James Curran hashes mutables in his sleep.
+
+James Curran's tweets are not restricted to 140 characters.
+James Curran can remotely start an unplugged machine.
+James Curran has never needed to type 'sudo' for admin tasks, even when logged in as guest.
+James Curran once wrote an O(1) bogosort.
+James Curran doesn't need to walk into Mordor. He can just ssh in and delete the whole place remotely.
+James Curran's reddit karma exceeds the total number of upvotes ever made. His only link is a video of him breakdancing.
+James Curran can write programs instantaneously.
+James Curran isn't always given rice at meals.
+James Curran's watch asks HIM what the time is.
+James Curran has more than five types in SQLite.
+James Curran can reverse trapdoor functions in constant time.
+James Curran's computer doesn't have a CTRL key, as James Curran is always in control.
+James Curran won Mafia before the game started.
+James Curran once made a cipher which converted a phrase into varying insults targetting Java.
+James Curran can translate binary in his head, while reciting the exact order of a hash table. Backwards.
+James Curran can put data into a hash table. In aplhabetical order.
+James Curran doesn't make the rules, the rules make themselves around James Curran.
+Someone once uploaded a photo of James Curran to Facebook. He then reset the internet, with his mind.
+James Curran can simply walk into Mordor.
+James Curran doesn't walk. He rotates the earth around his position.
+James Curran can print coins.
+The way James Curran pronounces "envelope" is always the right way.
+James Curran reads the source code of Python as a bed-time story.
+James Curran can interpret Matrix digital rain.
+"And I am very much alive still, because I have the power to make myself alive." - James Curran
+All behaviour is defined for James Curran.
+When James Curran uses floating point math to evaluate 0.1 * 0.1, it does = 0.01.
+1/0 = James Curran
+James Curran IS cinnamon.
+James Curran doesn't age.
+James Curran can operate Emacs.
+James Curran doesn't need to use a line following robot to rescue a princess. James Curran has no need for princesses.
+It's only raining today because James Curran wants it to.
+import james_curran prevents collisions in hash tables.
+James Curran always uses the quantum bogosort.
+James Curran turns people into ducks.
+Everything you read on the Internet about James Curran is true.
+James Curran can use a telescope as a cutting implement.
+The robots work because James Curran told them to.
+James Curran can grate cheese by hand.
+James Curran can read books until four AM on consecutive nights with no negative effect.
+James Curran doesn't need to list the Pokemon gym leaders. He beat them and won all the titles years ago.
+James Curran doesn't need sunblock on a hot day. The sun needs James Curran block.
+General relativity < special relativity < Curran relativity.
+James Curran uses xmonad, because Haskell is beautiful.
+"Your expensive network switch is just a glorified hardware hash table." - James Curran
+James Curran uses an O(0) worst case search. He just won't give it to us mere mortals.
+James Curran's residential address is ::1. He is currently migrating to IPv38.
+James Curran can parse context sensitive grammars with his mind.
+James Curran can concatenate strings and ints.
+James Curran doesn't need to break RSA ciphers. He knows everything.
+James Curran can decrypt random noise.
+James Curran can divide two positive numbers and get a negative number.
+James Curran can decrypt your ciphertext by listening to your CPU.
+James knows the names of all students off by heart, including ones that will attend in the future.
+James Curran doesn't need to press the nuclear-warfare button.
+James Curran's 40x error pages return 200 OK status codes.
+The world will not end this year, because James Curran wrote "old school" demos that render 3D worlds on an abacus.
+In the beginning, there was James Curran.
+God programs counting from zero. James Curran programs counting from zero. There are no coincidences.
+"Emacs is the one true god." - James Curran
+James Curran has his own Unicode character. It's too bad that no one can see it.
+On the SIT machines, james_curran is a variable that can only be truthy values. Setting it to falsy values throws a RuntimeError.
+James Curran only pretends to be fooled by magic. He is a War Mage with the ability to resurrect murdered students.
+James Curran can bend light with his bare hands.
+James Curran doesn't actually need wise tech. He himself is the epitome of wise technology.
+There are only two things that give James Curran goosebumps, children's books and hashmaps.
+James Curran debugs programs by writing the memory to a buzzer and listening to the tones to check if they are melodic.
